@@ -1,39 +1,139 @@
-h1{
-    font-size: 45px;
-    line-height: 45px;
-    margin-top: 48px;
-    margin-bottom: 24px;
-    font-weight: 600;
+.padding-block {
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
-ul{
-    li{
-        list-style: none;
+.home{
+    .container{
+        padding-right: 0px;
+        padding-left: 0px;
+        h1{
+            font-size: 45px;
+            line-height: 45px;
+            margin-top: 48px;
+            margin-bottom: 24px;
+            font-weight: 600;
+        }
+        ul{
+            li{
+                list-style: none;
+            }
+        }
+        img{
+            vertical-align: middle;
+        }
+        .display-pic{
+            position: relative;
+            z-index: 2;
+            border-radius: 50%;
+            width: 232px;
+            height: 232px;
+            overflow: hidden;
+            display: inline-block;
+            img{
+                width: 232px;
+                height: 232px;
+            }
+        }
+        .name{
+            text-transform: uppercase;
+            margin-bottom: 0;
+        }
+        .pos-title{
+            font-weight: 300;
+            margin: 0;
+            line-height: 34px;
+        }
+        .socialM {
+          font-size: 2.5em;
+          color: #555;
+          overflow: hidden;
+          a {
+            color: inherit;
+            text-decoration: none;
+          }
+          i {
+            margin: .1em;
+            cursor: pointer;
+            transition: color 300ms ease, margin-top 300ms ease;
+            transform: translateZ(0);
+
+            &:hover {
+              margin-top: -1px;
+            }
+
+            &#twitter:hover {
+              color: #77DDF6;
+            }
+
+            &#github:hover {
+              color: black;
+            }
+
+            &#facebook:hover {
+              color: #3b5998;
+            }
+
+            &#linkedin:hover {
+              color: #0177B5;
+            }
+
+            &#code:hover {
+              color: #29A329;
+            }
+
+            &#stack:hover {
+              color: #ED780E;
+            }
+
+            &#plus:hover {
+              color: #D43402;
+            }
+
+            &#mail:hover {
+              color: #F7B401;
+            }
+          }
+        }
     }
 }
-
-.display-pic{
-    border-radius: 50%;
-    border-width: 1px;
-    border-style: solid;
-    width: 232px;
-    height: 232px;
-    overflow: hidden;
-    display: inline-block;
-    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/ce54bf11889067.562541ef7cde4.png);
-    background-position:50% 50%;
-    background-repeat:no-repeat;
-}
-.name{
-    text-transform: uppercase;
-    margin-bottom: 0;
-}
-.pos-title{
-    font-weight: 300;
-    margin: 0;
-    line-height: 34px;
-}
-.socialM{
-    li{
-        display: inline-block;
+@media (max-width: 768px) {
+    .home{
+        .container{
+            text-align: center;
+            .display-pic {
+                display: block;
+                margin: 0 auto;
+            }
+            .socialM {
+              text-align: center;
+              i {
+                  text-align: center;
+                  &#twitter {
+                    color: #77DDF6;
+                  }
+                  &#github {
+                    color: black;
+                  }
+                  &#facebook {
+                    color: #3b5998;
+                  }
+                  &#linkedin {
+                    color: #0177B5;
+                  }
+                  &#code {
+                    color: #29A329;
+                  }
+                  &#stack {
+                    color: #ED780E;
+                  }
+                  &#plus {
+                    color: #D43402;
+                  }
+                  &#mail {
+                    color: #F7B401;
+                  }
+              }
+            }
+        }
     }
 }
