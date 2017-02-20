@@ -1,32 +1,41 @@
 /* line 1, ../../sass/sass/index.scss */
-.padding-block {
+#wrapper {
+  width: 1230px;
+  margin: 50px auto;
+  border-color: #c6c6c6;
+  background-color: #fff;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+  border-width: 1px;
+  border-style: solid;
+}
+/* line 9, ../../sass/sass/index.scss */
+#wrapper .padding-block {
   padding-top: 48px;
   padding-bottom: 48px;
 }
-
-/* line 6, ../../sass/sass/index.scss */
-.home .container {
+/* line 14, ../../sass/sass/index.scss */
+#wrapper .home .container {
   padding-right: 0px;
   padding-left: 0px;
 }
-/* line 9, ../../sass/sass/index.scss */
-.home .container h1 {
+/* line 18, ../../sass/sass/index.scss */
+#wrapper .home .container h1 {
   font-size: 45px;
   line-height: 45px;
   margin-top: 48px;
   margin-bottom: 24px;
   font-weight: 600;
 }
-/* line 17, ../../sass/sass/index.scss */
-.home .container ul li {
+/* line 26, ../../sass/sass/index.scss */
+#wrapper .home .container ul li {
   list-style: none;
 }
-/* line 21, ../../sass/sass/index.scss */
-.home .container img {
+/* line 30, ../../sass/sass/index.scss */
+#wrapper .home .container img {
   vertical-align: middle;
 }
-/* line 24, ../../sass/sass/index.scss */
-.home .container .display-pic {
+/* line 33, ../../sass/sass/index.scss */
+#wrapper .home .container .display-pic {
   position: relative;
   z-index: 2;
   border-radius: 50%;
@@ -35,125 +44,138 @@
   overflow: hidden;
   display: inline-block;
 }
-/* line 32, ../../sass/sass/index.scss */
-.home .container .display-pic img {
+/* line 41, ../../sass/sass/index.scss */
+#wrapper .home .container .display-pic img {
   width: 232px;
   height: 232px;
 }
-/* line 37, ../../sass/sass/index.scss */
-.home .container .name {
+/* line 46, ../../sass/sass/index.scss */
+#wrapper .home .container .name {
   text-transform: uppercase;
   margin-bottom: 0;
 }
-/* line 41, ../../sass/sass/index.scss */
-.home .container .pos-title {
+/* line 50, ../../sass/sass/index.scss */
+#wrapper .home .container .pos-title {
   font-weight: 300;
   margin: 0;
   line-height: 34px;
 }
-/* line 46, ../../sass/sass/index.scss */
-.home .container .socialM {
+/* line 55, ../../sass/sass/index.scss */
+#wrapper .home .container .socialM {
   font-size: 2.5em;
   color: #555;
   overflow: hidden;
 }
-/* line 50, ../../sass/sass/index.scss */
-.home .container .socialM a {
+/* line 59, ../../sass/sass/index.scss */
+#wrapper .home .container .socialM a {
   color: inherit;
   text-decoration: none;
 }
-/* line 54, ../../sass/sass/index.scss */
-.home .container .socialM i {
+/* line 63, ../../sass/sass/index.scss */
+#wrapper .home .container .socialM i {
   margin: .1em;
   cursor: pointer;
   transition: color 300ms ease, margin-top 300ms ease;
   transform: translateZ(0);
 }
-/* line 60, ../../sass/sass/index.scss */
-.home .container .socialM i:hover {
-  margin-top: -1px;
-}
-/* line 64, ../../sass/sass/index.scss */
-.home .container .socialM i#twitter:hover {
-  color: #77DDF6;
-}
 /* line 68, ../../sass/sass/index.scss */
-.home .container .socialM i#github:hover {
-  color: black;
+#wrapper .home .container .socialM i:hover {
+  margin-top: -5px;
 }
 /* line 72, ../../sass/sass/index.scss */
-.home .container .socialM i#facebook:hover {
-  color: #3b5998;
+#wrapper .home .container .socialM i#twitter:hover {
+  color: #77DDF6;
 }
 /* line 76, ../../sass/sass/index.scss */
-.home .container .socialM i#linkedin:hover {
-  color: #0177B5;
+#wrapper .home .container .socialM i#github:hover {
+  color: black;
 }
 /* line 80, ../../sass/sass/index.scss */
-.home .container .socialM i#code:hover {
-  color: #29A329;
+#wrapper .home .container .socialM i#facebook:hover {
+  color: #3b5998;
 }
 /* line 84, ../../sass/sass/index.scss */
-.home .container .socialM i#stack:hover {
-  color: #ED780E;
+#wrapper .home .container .socialM i#linkedin:hover {
+  color: #0177B5;
 }
 /* line 88, ../../sass/sass/index.scss */
-.home .container .socialM i#plus:hover {
-  color: #D43402;
+#wrapper .home .container .socialM i#code:hover {
+  color: #29A329;
 }
 /* line 92, ../../sass/sass/index.scss */
-.home .container .socialM i#mail:hover {
+#wrapper .home .container .socialM i#stack:hover {
+  color: #ED780E;
+}
+/* line 96, ../../sass/sass/index.scss */
+#wrapper .home .container .socialM i#plus:hover {
+  color: #D43402;
+}
+/* line 100, ../../sass/sass/index.scss */
+#wrapper .home .container .socialM i#mail:hover {
   color: #F7B401;
 }
 
 @media (max-width: 768px) {
-  /* line 101, ../../sass/sass/index.scss */
-  .home .container {
+  /* line 109, ../../sass/sass/index.scss */
+  #wrapper {
+    width: 100%;
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* line 115, ../../sass/sass/index.scss */
+  #wrapper .home .container {
     text-align: center;
   }
-  /* line 103, ../../sass/sass/index.scss */
-  .home .container .display-pic {
+  /* line 117, ../../sass/sass/index.scss */
+  #wrapper .home .container .display-pic {
     display: block;
     margin: 0 auto;
   }
-  /* line 107, ../../sass/sass/index.scss */
-  .home .container .socialM {
+  /* line 121, ../../sass/sass/index.scss */
+  #wrapper .home .container .socialM {
     text-align: center;
-  }
-  /* line 109, ../../sass/sass/index.scss */
-  .home .container .socialM i {
-    text-align: center;
-  }
-  /* line 111, ../../sass/sass/index.scss */
-  .home .container .socialM i#twitter {
-    color: #77DDF6;
-  }
-  /* line 114, ../../sass/sass/index.scss */
-  .home .container .socialM i#github {
-    color: black;
-  }
-  /* line 117, ../../sass/sass/index.scss */
-  .home .container .socialM i#facebook {
-    color: #3b5998;
-  }
-  /* line 120, ../../sass/sass/index.scss */
-  .home .container .socialM i#linkedin {
-    color: #0177B5;
   }
   /* line 123, ../../sass/sass/index.scss */
-  .home .container .socialM i#code {
+  #wrapper .home .container .socialM i {
+    text-align: center;
+  }
+  /* line 125, ../../sass/sass/index.scss */
+  #wrapper .home .container .socialM i#twitter {
+    color: #77DDF6;
+  }
+  /* line 128, ../../sass/sass/index.scss */
+  #wrapper .home .container .socialM i#github {
+    color: black;
+  }
+  /* line 131, ../../sass/sass/index.scss */
+  #wrapper .home .container .socialM i#facebook {
+    color: #3b5998;
+  }
+  /* line 134, ../../sass/sass/index.scss */
+  #wrapper .home .container .socialM i#linkedin {
+    color: #0177B5;
+  }
+  /* line 137, ../../sass/sass/index.scss */
+  #wrapper .home .container .socialM i#code {
     color: #29A329;
   }
-  /* line 126, ../../sass/sass/index.scss */
-  .home .container .socialM i#stack {
+  /* line 140, ../../sass/sass/index.scss */
+  #wrapper .home .container .socialM i#stack {
     color: #ED780E;
   }
-  /* line 129, ../../sass/sass/index.scss */
-  .home .container .socialM i#plus {
+  /* line 143, ../../sass/sass/index.scss */
+  #wrapper .home .container .socialM i#plus {
     color: #D43402;
   }
-  /* line 132, ../../sass/sass/index.scss */
-  .home .container .socialM i#mail {
+  /* line 146, ../../sass/sass/index.scss */
+  #wrapper .home .container .socialM i#mail {
     color: #F7B401;
+  }
+}
+@media (max-width: 1230px) {
+  /* line 156, ../../sass/sass/index.scss */
+  #wraper {
+    width: 100%;
   }
 }
