@@ -1,0 +1,45 @@
+/* line 1, ../../sass/sass/index.scss */
+h1 {
+  font-size: 45px;
+  line-height: 45px;
+  margin-top: 48px;
+  margin-bottom: 24px;
+  font-weight: 600;
+}
+
+/* line 9, ../../sass/sass/index.scss */
+ul li {
+  list-style: none;
+}
+
+/* line 14, ../../sass/sass/index.scss */
+.display-pic {
+  border-radius: 50%;
+  border-width: 1px;
+  border-style: solid;
+  width: 232px;
+  height: 232px;
+  overflow: hidden;
+  display: inline-block;
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/ce54bf11889067.562541ef7cde4.png);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+/* line 26, ../../sass/sass/index.scss */
+.name {
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+/* line 30, ../../sass/sass/index.scss */
+.pos-title {
+  font-weight: 300;
+  margin: 0;
+  line-height: 34px;
+}
+
+/* line 36, ../../sass/sass/index.scss */
+.socialM li {
+  display: inline-block;
+}
