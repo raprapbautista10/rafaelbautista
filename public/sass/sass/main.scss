@@ -1,3 +1,10 @@
 * {
     font-family: 'Raleway', sans-serif;
   }
+a {
+  color: #34495E;
+  text-decoration: none;
+  &:hover{
+    text-decoration: none;
+  }
+}

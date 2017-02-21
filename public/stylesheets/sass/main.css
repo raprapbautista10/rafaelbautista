@@ -2,3 +2,13 @@
 * {
   font-family: 'Raleway', sans-serif;
 }
+
+/* line 4, ../../sass/sass/main.scss */
+a {
+  color: #34495E;
+  text-decoration: none;
+}
+/* line 7, ../../sass/sass/main.scss */
+a:hover {
+  text-decoration: none;
+}

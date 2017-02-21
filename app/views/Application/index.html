@@ -1,9 +1,9 @@
 #{extends 'main.html' /}
-#{set title:'Home' /}
+#{set title: messages.get('index.title') /}
 <link rel="stylesheet" href="/public/stylesheets/sass/index.css">
 <script src="/public/javascripts/home-js/home.js"></script>
 <div id="wrapper">
-    <div class="home padding-block">
+    <section class="home padding-block border-bottom">
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-5 col-lg-5 text-right">
@@ -12,15 +12,71 @@
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-7 col-lg-7">
-                    <h1 class="name">Rafael C. Bautista Jr.</h1>
-                    <h3 class="pos-title">Web Designer</h3>
+                    <h1 class="name">&{'index.page.owner'}</h1>
+                    <h3 class="pos-title">&{'index.position.title'}</h3>
                     <div class="socialM">
                         <a href="http://goo.gl/upzoGy"><i id="facebook" class="icon-facebook"></i></a>
-                        <i id="linkedin" class="icon-linkedin-sign"></i>
-                        <i id="plus" class="icon-google-plus-sign"></i>
+                        <a href="http://goo.gl/upzoGy"><i id="linkedin" class="icon-linkedin-sign"></i></a>
+                        <a href="http://goo.gl/upzoGy"><i id="plus" class="icon-google-plus-sign"></i></a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+    <nav class="menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-lg-12">
+                    <a href="profile.html" class="menu-li">
+                        <div class="foto">
+                            <img src="/public/images/nav-menu/profile.png">
+                        </div>
+                        <span class="name">Profile</span>
+                    </a>
+                    <a href="resume.html" class="menu-li">
+                            <span class="foto">
+                                <img src="/public/images/nav-menu/cv.png">
+                            </span>
+                        <span class="name">Resume</span>
+                    </a>
+                    <a href="portfolio.html" class="menu-li">
+                            <span class="foto">
+                                <img src="/public/images/nav-menu/porfolio.png">
+                            </span>
+                        <span class="name">Portfolio</span>
+                    </a>
+                    <a href="contact.html" class="menu-li">
+                            <span class="foto">
+                                <img src="/public/images/nav-menu/contact.png">
+                            </span>
+                        <span class="name">Contact</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-lg-3">
+                    <a href="#" class="hover-animate">
+                        <span class="ukie-icons hover-animate"><i class="fa fa-phone"></i></span> +(63) 917 559 3886
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-3">
+                    <a href="#" class="hover-animate">
+                        <span class="ukie-icons hover-animate"><i class="fa fa-paper-plane"></i></span> rafael-bautista.herokuapp.com
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-3">
+                    <a href="#" class="hover-animate">
+                        <span class="ukie-icons hover-animate"><i class="fa fa-map-marker"></i></span> Santo Tomas, Batangas PH
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-lg-3 text-right">
+                    <span class="copyright">Copyright © 2017 All right reserved</span>
+                </div>
+            </div>
+        </div>
+    </footer>
 </div>

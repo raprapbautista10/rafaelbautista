@@ -1,3 +1,7 @@
 # You can specialize this file for each language.
 # For example, for French create a messages.fr file
 #
+
+index.title = Rafael's Portfolio
+index.page.owner = Rafael C. Bautista Jr.
+index.position.title = Web Designer
